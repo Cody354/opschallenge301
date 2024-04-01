@@ -25,7 +25,7 @@ while true; do
 if [ "$option" == "1" ]; then
         echo "Hello world!"
     elif [ "$option" == "2" ]; then
-        ping -c 4 127.0.0.1  # Ping the loopback address
+        ping 127.0.0.1  # Ping the loopback address
     elif [ "$option" == "3" ]; then
         ifconfig  # Display network adapter information
     elif [ "$option" == "4" ]; then
