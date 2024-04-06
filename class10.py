@@ -6,13 +6,13 @@
 # Purpose:                      Python File Handling
 
 # Create a new .txt file and add three lines of text
-with open("example.txt") as file:
+with open("test.txt") as file:
     file.write("This is line 1\n")
     file.write("This is line 2\n")
     file.write("This is line 3\n")
 
 # Open the file to read its contents
-with open("example.txt", "r") as file:
+with open("test.txt", "r") as file:
     # Read the first line and display it on the screen
     first_line = file.readline()
     print("First line of the file:")
@@ -20,4 +20,4 @@ with open("example.txt", "r") as file:
 
 # Delete the created .txt file
 import os
-os.remove("example.txt")
+os.remove("test.txt")
