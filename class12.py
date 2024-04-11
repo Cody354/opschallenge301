@@ -5,9 +5,7 @@
 # Date of latest revision:      04/9/2024
 # Purpose:                      Install and test requests
 
-Here's the Python script that fulfills your requirements:
 
-Python
 import requests
 
 def get_user_input(message):
