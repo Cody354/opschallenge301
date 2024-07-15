@@ -3,7 +3,7 @@
 # Script Name:                  Ops Challenge: Conditionals in Menu Systems
 # Author:                       Cody Blahnik
 # Date of latest revision:      3/26/24
-# Purpose:                      bash script that launches a menu system 
+# Purpose:                      bash script that launches a menu system    
 
 
 # Create a bash script that launches a menu system with the following options:
